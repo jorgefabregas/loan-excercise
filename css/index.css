@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(201, 206, 211);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: rgb(3, 3, 161);
+    text-align: left;
+}
+.loan {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(250, 250, 249);
+}
+.table_header {
+    clear: both;
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+} 

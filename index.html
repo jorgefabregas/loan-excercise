@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>loan Excercise</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+        <h1>Simple Loan Calculator</h1>
+        <div class="loan">
+            <form name="loan_form">
+                <table class="loan_table">
+                    <tr>
+                        <td>Loan Amount</td>
+                        <td><input type="text" name="loan_amt" size="10" value="0"/></td>
+                    </tr>
+                    <tr>
+                        <td>Years</td>
+                        <td><input type="text" name="years" size="10" value="0"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" onclick="validate()" value="Calculate"/></td>
+                        <td><input type="button" onclick="startOver()" value="Start Over"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+            <h2>Your Monthly Payments</h2>
+        <div id="table_header">
+        </div>
+        <div id="table">
+            table
+        </div>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
